@@ -13,14 +13,14 @@ These datasets form the basis of the panel used to evaluate the economic impact 
 
 | Dataset Description | Table ID | Direct Link |
 |---------------------|----------|-------------|
-| GDP by industry (nominal) | 36-10-0380-01 | [View Table](https://www150.statcan.gc.ca/t1/tbl1/en/tv.action?pid=3610038001) |
-| GDP by industry (real, chained 2012 $) | 36-10-0381-01 | [View Table](https://www150.statcan.gc.ca/t1/tbl1/en/tv.action?pid=3610038101) |
-| Average weekly earnings by industry | 36-10-0298-01 | [View Table](https://www150.statcan.gc.ca/t1/tbl1/en/tv.action?pid=3610029801) |
-| Employment by province (age 15+) | 14-10-0017-01 | [View Table](https://www150.statcan.gc.ca/t1/tbl1/en/tv.action?pid=1410001701) |
-| Population estimates by province | 17-10-0005-01 | [View Table](https://www150.statcan.gc.ca/t1/tbl1/en/tv.action?pid=1710000501) |
-| Consumer Price Index (CPI), annual average | 18-10-0004-01 | [View Table](https://www150.statcan.gc.ca/t1/tbl1/en/tv.action?pid=1810000401) |
-| CPI by province | 18-10-0005-01 | [View Table](https://www150.statcan.gc.ca/t1/tbl1/en/tv.action?pid=1810000501) |
-| Bank of Canada interest rate | 10-10-0122-01 | [View Table](https://www150.statcan.gc.ca/t1/tbl1/en/tv.action?pid=1010012201) |
+| Gross domestic product (GDP) at factor cost, by selected industries (x 1,000,000) | 36-10-0380-01 | [View Table](https://www150.statcan.gc.ca/t1/tbl1/en/tv.action?pid=3610038001) |
+| Gross domestic product (GDP) at factor cost, by industry (x 1,000,000) | 36-10-0381-01 | [View Table](https://www150.statcan.gc.ca/t1/tbl1/en/tv.action?pid=3610038101) |
+| Wages and salaries and supplementary labour income, by industry, by province or territory, monthly, 1961 - 1996 (x 1,000) | 36-10-0298-01 | [View Table](https://www150.statcan.gc.ca/t1/tbl1/en/tv.action?pid=3610029801) |
+|Labour force characteristics by gender and detailed age group, monthly, unadjusted for seasonality (x 1,000) | 14-10-0017-01 | [View Table](https://www150.statcan.gc.ca/t1/tbl1/en/tv.action?pid=1410001701) |
+| Population estimates on July 1, by age and gender | 17-10-0005-01 | [View Table](https://www150.statcan.gc.ca/t1/tbl1/en/tv.action?pid=1710000501) |
+| Consumer Price Index, monthly, not seasonally adjusted | 18-10-0004-01 | [View Table](https://www150.statcan.gc.ca/t1/tbl1/en/tv.action?pid=1810000401) |
+| Consumer Price Index, annual average, not seasonally adjusted | 18-10-0005-01 | [View Table](https://www150.statcan.gc.ca/t1/tbl1/en/tv.action?pid=1810000501) |
+| Financial market statistics, last Wednesday unless otherwise stated, Bank of Canada | 10-10-0122-01 | [View Table](https://www150.statcan.gc.ca/t1/tbl1/en/tv.action?pid=1010012201) |
 
 ---
 
