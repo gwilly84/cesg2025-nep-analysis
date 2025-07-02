@@ -1,66 +1,37 @@
-# cesg2025-nep-analysis
-
-Causal inference analysis of Alberta’s economic divergence during the National Energy Program (1975–1990)
-
-## 📘 Dominion and Divergence: Creighton, Econometrics, and the National Energy Program
-
-This repository accompanies the paper submitted to the **Canadian Econometrics Study Group (CESG) 2025**. It applies causal inference methods to evaluate the economic impact of the 1980 National Energy Program (NEP) on Alberta relative to other Canadian provinces.
+# Dominion and Divergence  
+### Creighton, Econometrics, and the National Energy Program  
+**Author**: Greg Wilson  
+**CESG 2025 Submission**
 
 ---
 
-## 🔍 Abstract
+## 📄 Overview
 
-This project reinterprets the NEP as a reactive federal intervention, rather than the origin of Alberta’s economic divergence. Using a custom panel dataset (1975–1990) built from publicly available Statistics Canada and FRED data, we apply:
+This paper examines the economic impact of the 1980 National Energy Program (NEP) using provincial-level data from 1975 to 1990. Framed through Donald Creighton’s *Laurentian thesis*, the analysis evaluates whether the NEP was the cause of Alberta’s divergence or a reaction to regional economic realities already in motion.
 
-- Difference-in-Differences (DiD)
-- Event Study Analysis
-- Synthetic Control Method (SCM with ridge regularization)
-
-The analysis finds that Alberta’s GDP per worker and real wages were outperforming those of other provinces prior to the NEP, with divergence intensifying post-implementation. The findings suggest that the NEP constrained oil-linked growth, deepening federal-provincial tensions.
+Using modern econometric techniques—including Difference-in-Differences and synthetic control methods—the paper contributes to both historical and empirical understandings of Canadian federalism and regional economic policy.
 
 ---
 
-## 📂 Project Structure
+## 📁 Contents
 
-- `CESG_2025_Paper_Submission.pdf` — Full submitted paper
-- `figures/` — Visualizations used in the paper
-- `scripts/` — (To be released post-review)
-- `data_sources.md` — Table of data sources and download links
-
----
-
-## 📊 Data Access
-
-All data used in this analysis is publicly available from Statistics Canada and the U.S. Federal Reserve (FRED). To ensure long-term access and lightweight distribution, **this repository does not host raw data files directly**.
-
-To replicate the analysis, download the required datasets listed in [`data_sources.md`](./data_sources.md), and place them in a local `data/raw/` directory.
+| File | Description |
+|------|-------------|
+| `paper_dominion_divergence.pdf` | Full paper submitted to CESG 2025 (to be uploaded). |
+| `README.md` | This file. |
+| `data_sources.md` | A complete list of data sources used, with direct links to Statistics Canada and other repositories. |
 
 ---
 
-## 🧪 Code Availability
+## 📬 Contact
 
-The replication code will be shared after CESG review. It includes full preprocessing, panel construction, and model execution using Python (3.10+).
-
----
-
-## ⚙️ Environment
-
-This project uses:
-
-- `pandas`, `numpy`, `matplotlib`
-- `linearmodels` for DiD estimation
-- `scikit-learn` and custom code for Synthetic Control
-
-A `requirements.txt` file will be added with the public release of the code.
+For questions, feedback, or academic correspondence:  
+📧 **Greg Wilson**  
+✉️ gwilly84 [at] gmail [dot] com  
+📍 Ottawa, Canada  
 
 ---
 
-## 📄 License
+## ⚖️ License
 
-This project is licensed under the MIT License.
-
----
-
-## 📬 Citation
-
-> Greg Williams. *Dominion and Divergence: Creighton, Econometrics, and the National Energy Program.* CESG 2025 Paper Submission.
+This repository is licensed under the [MIT License](LICENSE). Feel free to share, cite, or build on this work with proper attribution.
