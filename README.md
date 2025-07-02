@@ -1,6 +1,6 @@
 # Dominion and Divergence  
 ### Creighton, Econometrics, and the National Energy Program  
-**Author**: Greg Wilson  
+**Author**: Greg Williams  
 **CESG 2025 Submission**
 
 ---
@@ -26,7 +26,7 @@ Using modern econometric techniques—including Difference-in-Differences and sy
 ## 📬 Contact
 
 For questions, feedback, or academic correspondence:  
-📧 **Greg Wilson**  
+📧 **Greg Williams**  
 ✉️ gwilly84 [at] gmail [dot] com  
 📍 Ottawa, Canada  
 
