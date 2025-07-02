@@ -9,7 +9,7 @@
 
 This paper examines the economic impact of the 1980 National Energy Program (NEP) using provincial-level data from 1975 to 1990. Framed through Donald Creighton’s *Laurentian thesis*, the analysis evaluates whether the NEP was the cause of Alberta’s divergence or a reaction to regional economic realities already in motion.
 
-Using modern econometric techniques—including Difference-in-Differences and synthetic control methods—the paper contributes to both historical and empirical understandings of Canadian federalism and regional economic policy.
+Applying modern econometric techniques—including Difference-in-Differences and the Synthetic Control Method—this study contributes to both historical and empirical understandings of Canadian federalism and regional economic policy.
 
 ---
 
@@ -17,9 +17,9 @@ Using modern econometric techniques—including Difference-in-Differences and sy
 
 | File | Description |
 |------|-------------|
-| `paper_dominion_divergence.pdf` | Full paper submitted to CESG 2025 (to be uploaded). |
+| [`paper_dominion_divergence.pdf`](paper_dominion_divergence.pdf) | Final paper submitted to CESG 2025. |
 | `README.md` | This file. |
-| `data_sources.md` | A complete list of data sources used, with direct links to Statistics Canada and other repositories. |
+| `data_sources.md` | A complete list of data sources used, with direct links to Statistics Canada and FRED. |
 
 ---
 
