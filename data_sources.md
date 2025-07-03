@@ -29,8 +29,8 @@ These datasets form the foundation of the panel used to evaluate the economic im
 | Dataset Description | Series ID | Direct Link |
 |---------------------|-----------|-------------|
 | WTI Crude Oil Spot Price | DCOILWTICO | [View Series](https://fred.stlouisfed.org/series/DCOILWTICO) |
-| Coal Price Index | PCOALUSDM | [View Series](https://fred.stlouisfed.org/series/PCOALUSDM) |
-| Industrial Chemical Price Index | PCU325311325311 | [View Series](https://fred.stlouisfed.org/series/PCU325311325311) |
+| Coal Price Index | WPU051 | [View Series](https://fred.stlouisfed.org/series/WPU051) |
+| Nitrogenous Fertilizer Manufacturing  | PCU325311325311 | [View Series](https://fred.stlouisfed.org/series/PCU325311325311) |
 
 ---
 
