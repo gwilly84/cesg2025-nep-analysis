@@ -1,44 +1,49 @@
-# 📊 Data Sources: CESG 2025 NEP Panel
+# CESG 2025 – NEP Analysis: Data Sources
 
-This project draws entirely on **publicly available data** from:
+This document outlines all data tables and external sources used to construct the provincial panel dataset for the analysis of the 1980 National Energy Program (NEP). All monetary values were deflated to 1986 dollars using the appropriate provincial CPI series. Alberta and eight comparator provinces are included; Prince Edward Island was excluded due to missing key indicators.
 
-- Statistics Canada (StatCan)
-- U.S. Federal Reserve Economic Data (FRED)
+## 🏭 Economic Output
 
-These datasets form the foundation of the panel used to evaluate the economic impact of the National Energy Program (NEP) on Alberta from 1975 to 1990.
+| Variable | Description | Source |
+|---------|-------------|--------|
+| GDP (Nominal and Real) | GDP at basic prices, by industry and province (x 1,000,000) | StatCan Table 36-10-0380-01 and 36-10-0381-01 |
+| GDP per Capita | Constructed from real GDP (1986 CAD) divided by population | Derived |
+| GDP per Worker | Constructed from real GDP (1986 CAD) divided by total employment | Derived |
 
----
+## 💼 Wages and Employment
 
-## 🇨🇦 Statistics Canada
+| Variable | Description | Source |
+|----------|-------------|--------|
+| Wages (Nominal) | Average weekly earnings by industry and province | StatCan Table 36-10-0298-01 |
+| Employment | Total employment by province, age 15+, all industries, annual | StatCan Table 14-10-0017-01 |
+| Wages per Worker | Constructed as real annual wages divided by employment | Derived |
 
-| Dataset Description | Table ID | Direct Link |
-|---------------------|----------|-------------|
-| Gross domestic product (GDP) at factor cost, by selected industries (x 1,000,000) | 36-10-0380-01 | [View Table](https://www150.statcan.gc.ca/t1/tbl1/en/tv.action?pid=3610038001) |
-| Gross domestic product (GDP) at factor cost, by industry (x 1,000,000) | 36-10-0381-01 | [View Table](https://www150.statcan.gc.ca/t1/tbl1/en/tv.action?pid=3610038101) |
-| Wages and salaries and supplementary labour income, by industry, by province or territory, monthly, 1961–1996 (x 1,000) | 36-10-0298-01 | [View Table](https://www150.statcan.gc.ca/t1/tbl1/en/tv.action?pid=3610029801) |
-| Labour force characteristics by gender and detailed age group, monthly, unadjusted for seasonality (x 1,000) | 14-10-0017-01 | [View Table](https://www150.statcan.gc.ca/t1/tbl1/en/tv.action?pid=1410001701) |
-| Population estimates on July 1, by age and gender | 17-10-0005-01 | [View Table](https://www150.statcan.gc.ca/t1/tbl1/en/tv.action?pid=1710000501) |
-| Consumer Price Index, monthly, not seasonally adjusted | 18-10-0004-01 | [View Table](https://www150.statcan.gc.ca/t1/tbl1/en/tv.action?pid=1810000401) |
-| Consumer Price Index, annual average, not seasonally adjusted | 18-10-0005-01 | [View Table](https://www150.statcan.gc.ca/t1/tbl1/en/tv.action?pid=1810000501) |
-| Financial market statistics, last Wednesday unless otherwise stated, Bank of Canada | 10-10-0122-01 | [View Table](https://www150.statcan.gc.ca/t1/tbl1/en/tv.action?pid=1010012201) |
+## 👥 Population
 
----
+| Variable | Description | Source |
+|----------|-------------|--------|
+| Population | Population estimates by province, July 1st | StatCan Table 17-10-0005-01 |
 
-## 🇺🇸 FRED (Federal Reserve Economic Data)
+## 💸 Inflation / Deflation
 
-| Dataset Description | Series ID | Direct Link |
-|---------------------|-----------|-------------|
-| WTI Crude Oil Spot Price | DCOILWTICO | [View Series](https://fred.stlouisfed.org/series/DCOILWTICO) |
-| Coal Price Index | WPU051 | [View Series](https://fred.stlouisfed.org/series/WPU051) |
-| Nitrogenous Fertilizer Manufacturing  | PCU325311325311 | [View Series](https://fred.stlouisfed.org/series/PCU325311325311) |
+| Variable | Description | Source |
+|----------|-------------|--------|
+| CPI (Annual) | Annual provincial CPI (not seasonally adjusted) | StatCan Table 18-10-0005-01 |
+| CPI Base Year | 1986 dollars | Fixed internally |
 
----
+## 🛢 Commodity Prices & Macro Controls
 
-## 📎 Notes
+| Variable | Description | Source |
+|----------|-------------|--------|
+| WTI Crude Oil (USD/bbl) | Spot price | FRED Series: DCOILWTICO |
+| Coal Price Index | Producer Price Index for Coal | FRED Series: WPU051 |
+| Bank Rate | Bank of Canada Annual Average | StatCan Table 10-10-0122-01 |
 
-- All data is **open access** and publicly available from official statistical agencies.
-- Monetary values referenced in the paper are deflated to **1986 constant dollars** using the CPI series (18-10-0005-01).
-- No proprietary software or paid data sources were used in this analysis.
+## 🔁 Data Processing Notes
+
+- All monetary variables are deflated to 1986 CAD.
+- Where values were missing (e.g., 1975 employment/wages), linear interpolation was applied to balance the panel.
+- GDP and wage metrics are aggregated from industry-level to provincial-level indicators using population or employment weighting where applicable.
 
 ---
 
