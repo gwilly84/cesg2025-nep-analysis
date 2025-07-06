@@ -4,7 +4,7 @@ This repository accompanies the CESG 2025 submission:
 **"Dominion and Divergence: Creighton, Econometrics, and the National Energy Program"**  
 by **Greg Williams**.
 
-It contains the data documentation, processing scripts, and code for constructing a custom provincial panel dataset spanning **1975–1990**, used to evaluate the impact of the National Energy Program (NEP) on Alberta relative to other Canadian provinces.
+It contains the data documentation code for constructing a custom provincial panel dataset spanning **1975–1990**, used to evaluate the impact of the National Energy Program (NEP) on Alberta relative to other Canadian provinces.
 
 ---
 
