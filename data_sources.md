@@ -1,6 +1,6 @@
 ## 🗂️ Data Sources & Construction
 
-This dataset spans **1975–1990** and covers nine Canadian provinces (excluding **PEI** and **Newfoundland and Labrador** due to incomplete series).  
+This dataset spans **1975–1990** and covers eight Canadian provinces (excluding **PEI** and **Newfoundland and Labrador** due to incomplete series).  
 All monetary values are deflated to **constant 1986 CAD** using province-specific CPI data.  
 Where values were unavailable—particularly in early years—**linear interpolation** was used to preserve panel balance.
 
