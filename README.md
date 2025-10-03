@@ -4,12 +4,16 @@
 📄 CESG 2025 Submission
 
 ---
-
 ## 📚 Overview
 
-This paper examines the economic impact of the 1980 National Energy Program (NEP) using provincial-level data from 1975 to 1990. Framed through Donald Creighton’s *Laurentian thesis*, the analysis evaluates whether the NEP was the cause of Alberta’s divergence or a reaction to regional economic realities already in motion.
+This project investigates the economic legacy of the 1980 **National Energy Program (NEP)** through the lens of Canadian political economy. Drawing on Donald Creighton’s *Laurentian thesis*, it explores whether the NEP marked a federal imposition that triggered Alberta’s economic divergence—or simply crystallized trends already underway.
 
-Using a custom-built panel and modern causal inference tools—including **Difference-in-Differences** and a **Ridge-regularized Synthetic Control Method**—this project contributes to both historical and empirical understandings of Canadian federalism and regional economic policy.
+Using a custom-constructed provincial panel (**1975–1995**) and state-of-the-art causal inference techniques—including **Difference-in-Differences**, **event study models**, and a **ridge-regularized Synthetic Control Method**—the analysis quantifies Alberta’s post-NEP trajectory across three outcomes:
+
+- 📈 Real GDP per capita  
+- 💼 Compensation per worker  
+- ⚖️ Labour’s share of GDP (real ratio)  
+
 
 ---
 
