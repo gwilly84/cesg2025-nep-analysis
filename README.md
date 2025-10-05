@@ -22,7 +22,7 @@ Using a custom-constructed provincial panel (**1975–1995**) and state-of-the-a
 | File/Folder | Description |
 |-------------|-------------|
 | [`paper_dominion_divergence.pdf`](paper_dominion_divergence.pdf) | Final paper submitted to CESG 2025 |
-| [`paper_dominion_divergence_v2.pdf`](paper_dominion_divergence_v2.pdf) | Final paper submitted to CESG 2025 |
+| [`paper_dominion_divergence_v2.pdf`](paper_dominion_divergence_v2.pdf) | Updated paper with new panel and outcome variables |
 | `00_prepare_base_panel_v2.py` | Python script to build panel dataset from StatCan & FRED |
 | `data_sources.md` | Full list of source tables and links (StatCan, FRED, BoC) |
 | `outputs/` | Figures, summary tables, and processed datasets |
